@@ -8,7 +8,7 @@ const Tools = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bxl-wordpress"></i>
 
                     <div>
                         <h3 className="skills__name">WordPress</h3>
@@ -17,7 +17,7 @@ const Tools = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bxl-shopify"></i>
 
                     <div>
                         <h3 className="skills__name">Shopify</h3>
@@ -26,7 +26,7 @@ const Tools = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bxl-docker"></i>
 
                     <div>
                         <h3 className="skills__name">Docker</h3>
@@ -35,7 +35,7 @@ const Tools = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bxl-figma"></i>
 
                     <div>
                         <h3 className="skills__name">Figma</h3>
@@ -47,7 +47,7 @@ const Tools = () => {
 
             <div className="skills__group">
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bxl-adobe"></i>
 
                     <div>
                         <h3 className="skills__name">Adobe XD</h3>
@@ -56,7 +56,7 @@ const Tools = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bxl-github"></i>
 
                     <div>
                         <h3 className="skills__name">Github</h3>
@@ -65,7 +65,7 @@ const Tools = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bxl-git"></i>
 
                     <div>
                         <h3 className="skills__name">Bitbucket</h3>
@@ -74,7 +74,7 @@ const Tools = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <i className="bx bx-code"></i>
 
                     <div>
                         <h3 className="skills__name">VS Code</h3>
