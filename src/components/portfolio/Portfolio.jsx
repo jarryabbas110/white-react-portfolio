@@ -4,7 +4,7 @@ import Menu from './Menu';
 import ui from "../../assets/ui 1/Chef.jpg"
 import ui2 from "../../assets/ui 2/Landing Page.jpg"
 import IMG1 from '../../assets/react-portfolio.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/music-player.jpg'
 import IMG3 from '../../assets/white-portfolio.jpg'
 
 
@@ -20,10 +20,10 @@ const react = [
     {
       id: 2,
       image: IMG2,
-      title: 'Testing',
+      title: 'Music Player',
       category: 'React',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+      github: 'https://github.com/jarryabbas110/react-music-player',
+      demo: 'https://sage-vacherin-f50edb.netlify.app/'
     },
     {
         id: 3,
