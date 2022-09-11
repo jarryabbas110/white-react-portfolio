@@ -17,7 +17,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className='services__title'>Product <br/> Designer</h3>
+                    <h3 className='services__title'>Web <br/> Development</h3>
                 </div>
 
                 <span className="services__button" onClick={()=> toggleTab(1)}>View More{" "} <i className='uil uil-arrow-right services__button-icon'></i></span>
@@ -26,23 +26,23 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Lorem</h3>
-                        <p className="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente a fugiat vero saepe quibusdam impedit ullam facilis dignissimos repudiandae? Eum quisquam nobis deserunt odio aut fuga error omnis eligendi?</p>
+                        <h3 className="services__modal-title">React Development</h3>
+                        <p className="services__modal-description">Aspiring React developer with experience of handling and modifying an open-source OHIF Dicom Viewer on React for Xylexa Inc. as well as developing personal projects.</p>
                     
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">i Develop user interface.</p>
+                                <p className="services__modal-info">User Interface Design</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Webpage Development</p>
+                                <p className="services__modal-info">Project with Api data integration.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I Create ix element interactions</p>
+                                <p className="services__modal-info">E-commerce website</p>
                             </li>
                         </ul>
                     </div>
@@ -51,7 +51,7 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-arrow services__icon"></i>
+                    <i className="uil uil-paint-tool services__icon"></i>
                     <h3 className='services__title'>Ui/Ux <br/> Designer</h3>
                 </div>
 
@@ -61,24 +61,20 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title"></h3>
-                        <p className="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente a fugiat vero saepe quibusdam impedit ullam facilis dignissimos repudiandae? Eum quisquam nobis deserunt odio aut fuga error omnis eligendi?</p>
+                        <h3 className="services__modal-title">Interface Design</h3>
+                        <p className="services__modal-description">Designing and prototyping useful and elegant User Interface for different platforms including Mobile, Web, and Desktop. Responsible for creating social media marketing designs for freelance work.</p>
                     
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">i Develop user interface.</p>
+                                <p className="services__modal-info">User Interface</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Webpage Development</p>
+                                <p className="services__modal-info">User Experience</p>
                             </li>
 
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I Create ix element interactions</p>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -86,8 +82,8 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-edit services__icon"></i>
-                    <h3 className='services__title'>Visual <br /> Designer</h3>
+                    <i className="uil uil-cloud services__icon"></i>
+                    <h3 className='services__title'>DevOps <br /> Engineer</h3>
                 </div>
 
                 <span className="services__button" onClick={()=> toggleTab(3)}>View More{" "} <i className='uil uil-arrow-right services__button-icon'></i></span>
@@ -96,23 +92,38 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title"></h3>
-                        <p className="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente a fugiat vero saepe quibusdam impedit ullam facilis dignissimos repudiandae? Eum quisquam nobis deserunt odio aut fuga error omnis eligendi?</p>
+                        <h3 className="services__modal-title">DevOps</h3>
+                        <p className="services__modal-description">Experience in DevOps while working for Xylexa Inc. as a DevOps Engineer. Responsible for handling complete AWS for the company.</p>
                     
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">i Develop user interface.</p>
+                                <p className="services__modal-info">EC2</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Webpage Development</p>
+                                <p className="services__modal-info">Amplify</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I Create ix element interactions</p>
+                                <p className="services__modal-info">S3 & CloudFront</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Route 53</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">IAM</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Dockers</p>
                             </li>
                         </ul>
                     </div>

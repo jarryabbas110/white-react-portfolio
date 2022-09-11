@@ -3,18 +3,19 @@ import "./portfolio.css";
 import Menu from './Menu';
 import ui from "../../assets/ui 1/Chef.jpg"
 import ui2 from "../../assets/ui 2/Landing Page.jpg"
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/react-portfolio.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/white-portfolio.jpg'
 
 
 const react = [
     {
-      id: 60,
+      id: 1,
       image: IMG1,
-      title: 'Testing',
+      title: 'React-Portfolio',
       category: 'React',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+      github: 'https://github.com/jarryabbas110/portfolio',
+      demo: 'https://jarryabbas.netlify.app/'
     },
     {
       id: 2,
@@ -26,11 +27,11 @@ const react = [
     },
     {
         id: 3,
-        image: IMG1,
-        title: 'Testing',
+        image: IMG3,
+        title: 'White-React-Portfolio',
         category: 'React',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+        github: 'https://github.com/jarryabbas110/white-react-portfolio',
+        demo: 'jarry.netlify.com'
       },
       {
         id: 4,
@@ -92,10 +93,10 @@ const react = [
 
                     <span className='work__category'>{category}</span>
                     <h3 className='work__title'>{title}</h3>
-                    <a href={demo} className="work__button">
-                        <i className="uil uil-link-alt work__button-icon"></i>
+                    <a href={demo} className="work__button" target="_blank">
+                        <i className="uil uil-link-alt work__button-icon" ></i>
                     </a>
-                    <a href={github} className="work__button2">
+                    <a href={github} className="work__button2" target="_blank">
                         <i className="uil uil-github work__button-icon"></i>
                     </a>
                 </div>
@@ -112,7 +113,7 @@ const react = [
 
                     <span className='work__category'>{category}</span>
                     <h3 className='work__title'>{title}</h3>
-                    <a href={behance} className="work__button">
+                    <a href={behance} className="work__button" target="_blank">
                         <i className="uil uil-link-alt work__button-icon"></i>
                     </a>
                     
