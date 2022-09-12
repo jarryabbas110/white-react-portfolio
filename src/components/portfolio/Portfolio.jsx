@@ -6,6 +6,7 @@ import ui2 from "../../assets/ui 2/Landing Page.jpg"
 import IMG1 from '../../assets/react-portfolio.jpg'
 import IMG2 from '../../assets/music-player.jpg'
 import IMG3 from '../../assets/white-portfolio.jpg'
+import IMG4 from '../../assets/red-power.jpg'
 
 
 const react = [
@@ -32,31 +33,31 @@ const react = [
         category: 'React',
         github: 'https://github.com/jarryabbas110/white-react-portfolio',
         demo: 'jarry.netlify.com'
-      },
-      {
-        id: 4,
-        image: IMG2,
-        title: 'Testing',
-        category: 'React',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
       }
+      
   ]
   
   const design = [
     {
-      id: 1,
+      id: 11,
       image: ui,
       title: 'Blog Site',
       category: 'Design',
-      behance: 'https://github.com'
+      behance: 'https://www.behance.net/gallery/151869371/Blog-Interface'
     },
     {
       id: 12,
       image: ui2,
       title: 'Shoes Store',
       category: 'Design',
-      behance: 'https://github.com'
+      behance: 'https://www.behance.net/gallery/151923199/Shoes-Store'
+    },
+    {
+      id: 12,
+      image: IMG4,
+      title: 'Juice',
+      category: 'Design',
+      behance: 'https://www.behance.net/gallery/152462129/Juice'
     }
   ]
 
