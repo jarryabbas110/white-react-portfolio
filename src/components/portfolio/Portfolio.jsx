@@ -32,7 +32,7 @@ const react = [
         title: 'White-React-Portfolio',
         category: 'React',
         github: 'https://github.com/jarryabbas110/white-react-portfolio',
-        demo: 'jarry.netlify.com'
+        demo: '/'
       }
       
   ]
