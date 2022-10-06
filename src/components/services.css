@@ -129,7 +129,8 @@
   @media screen and (max-width: 786px) {
  
     .services__container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2,225px);
+        column-gap: 1.3rem;
     }
 
     .services__content{
@@ -143,6 +144,12 @@
   }
   
   @media screen and (max-width: 576px) {
+
+    .services__container{
+        grid-template-columns: repeat(1,250px);
+        row-gap: 1.8rem;
+    }
+
     .services__modal-content{
         padding: 4.5rem 1.5rem 2.5rem;
     }
