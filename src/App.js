@@ -11,6 +11,7 @@ import Scrollup from "./components/Scrollup";
 import Portfolio from "./components/portfolio/Portfolio";
 import PuffLoader from "react-spinners/PuffLoader";
 import { useEffect, useState } from "react";
+// import Work from "./components/newProduct/Work";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
             <Services />
             <Qualification />
             <Portfolio />
+            {/* <Work /> */}
             <Contact />
           </main>
           <Footer />
